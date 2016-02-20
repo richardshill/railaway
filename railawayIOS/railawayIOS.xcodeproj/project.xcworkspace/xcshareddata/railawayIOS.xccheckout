@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>042A34CA-158C-4811-BE8A-97C01165A79D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9C66DE461B1D4C25FDA53D050090332FE3CE848B</key>
+		<string>https://github.com/richardshill/railaway.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>railawayIOS/railawayIOS.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9C66DE461B1D4C25FDA53D050090332FE3CE848B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/richardshill/railaway.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9C66DE461B1D4C25FDA53D050090332FE3CE848B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9C66DE461B1D4C25FDA53D050090332FE3CE848B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>railawayApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
