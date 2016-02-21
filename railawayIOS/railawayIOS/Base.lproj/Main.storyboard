@@ -30,13 +30,25 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="rIcon_Green" translatesAutoresizingMaskIntoConstraints="NO" id="tdF-um-K9K">
+                                <rect key="frame" x="240" y="139" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="UTl-f8-15g"/>
+                                    <constraint firstAttribute="height" constant="120" id="kFk-FB-dcv"/>
+                                </constraints>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="railwayPlatfrom" translatesAutoresizingMaskIntoConstraints="NO" id="yXs-Nt-juE">
+                                <rect key="frame" x="60" y="28" width="480" height="480"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
+                            <constraint firstItem="tdF-um-K9K" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" constant="-101" id="Y3L-uC-jjX"/>
                             <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
                             <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
+                            <constraint firstItem="tdF-um-K9K" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="j7r-ZT-auZ"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
@@ -107,6 +119,8 @@
     </scenes>
     <resources>
         <image name="first" width="30" height="30"/>
+        <image name="rIcon_Green" width="120" height="120"/>
+        <image name="railwayPlatfrom" width="480" height="480"/>
         <image name="second" width="30" height="30"/>
     </resources>
 </document>
