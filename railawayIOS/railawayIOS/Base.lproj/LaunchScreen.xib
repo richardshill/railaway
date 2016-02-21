@@ -11,23 +11,47 @@
             <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="railwayPlatfrom" translatesAutoresizingMaskIntoConstraints="NO" id="L6O-Yn-15a">
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" image="railwayPlatfrom" translatesAutoresizingMaskIntoConstraints="NO" id="L6O-Yn-15a">
                     <rect key="frame" x="0.0" y="-1" width="480" height="480"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="2208" id="0Uv-fO-EVC"/>
+                        <constraint firstAttribute="height" constant="2208" id="NVX-op-q8y"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="2208" id="ZHF-5k-6bS"/>
+                    </constraints>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="rIcon_Green" translatesAutoresizingMaskIntoConstraints="NO" id="aqJ-vE-iCs">
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" misplaced="YES" image="rIcon_Green" translatesAutoresizingMaskIntoConstraints="NO" id="aqJ-vE-iCs">
                     <rect key="frame" x="180" y="180" width="120" height="120"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="120" id="Juj-iN-UaT"/>
                         <constraint firstAttribute="height" constant="120" id="hZa-tm-bXX"/>
                     </constraints>
                 </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Welcome to RailAway! Let's go..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E9u-tR-0dS">
+                    <rect key="frame" x="117" y="388" width="246" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="1bD-7Y-txW"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="246" id="C3a-5y-Jmd"/>
+                        <constraint firstAttribute="width" constant="246" id="cpr-m5-J6N"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstAttribute="bottom" secondItem="L6O-Yn-15a" secondAttribute="bottom" id="0bT-9n-3Ma"/>
                 <constraint firstItem="aqJ-vE-iCs" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="3dE-Wx-1ke"/>
+                <constraint firstItem="L6O-Yn-15a" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="4Ro-dt-VIj"/>
+                <constraint firstItem="E9u-tR-0dS" firstAttribute="top" secondItem="aqJ-vE-iCs" secondAttribute="bottom" constant="88" id="7th-Z9-98m"/>
+                <constraint firstItem="E9u-tR-0dS" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="XuF-OZ-1tJ"/>
                 <constraint firstItem="aqJ-vE-iCs" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Z6V-ym-BZz"/>
+                <constraint firstAttribute="bottom" secondItem="E9u-tR-0dS" secondAttribute="bottom" constant="71" id="hYu-P7-b3I"/>
                 <constraint firstItem="aqJ-vE-iCs" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="jaX-Bl-Rse"/>
+                <constraint firstItem="L6O-Yn-15a" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="kWg-JG-FJp"/>
                 <constraint firstItem="aqJ-vE-iCs" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="khz-VF-Nid"/>
+                <constraint firstItem="E9u-tR-0dS" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="kzc-dj-WlM"/>
+                <constraint firstItem="L6O-Yn-15a" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="xTs-kc-hq9"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

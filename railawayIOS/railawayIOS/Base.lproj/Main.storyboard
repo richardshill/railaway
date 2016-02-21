@@ -17,45 +17,72 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <rect key="frame" x="221" y="279" width="158" height="42"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
-                                <rect key="frame" x="203" y="329" width="195" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="rIcon_Green" translatesAutoresizingMaskIntoConstraints="NO" id="tdF-um-K9K">
-                                <rect key="frame" x="240" y="139" width="120" height="120"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="UTl-f8-15g"/>
-                                    <constraint firstAttribute="height" constant="120" id="kFk-FB-dcv"/>
-                                </constraints>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="railwayPlatformHero" translatesAutoresizingMaskIntoConstraints="NO" id="rb1-7x-6EJ">
+                                <rect key="frame" x="-252" y="-68" width="1104" height="736"/>
+                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="-152" y="0.0" width="1104" height="736"/>
+                                </variation>
                             </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="railwayPlatfrom" translatesAutoresizingMaskIntoConstraints="NO" id="yXs-Nt-juE">
-                                <rect key="frame" x="60" y="28" width="480" height="480"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="rIcon_Green" translatesAutoresizingMaskIntoConstraints="NO" id="tdF-um-K9K">
+                                <rect key="frame" x="240" y="240" width="120" height="120"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ok-hT-E14">
+                                <rect key="frame" x="185" y="368" width="230" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="230" id="gvE-6F-UGm"/>
+                                </constraints>
+                                <state key="normal" image="showCard@0.5x"/>
+                            </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="HeyWhere" translatesAutoresizingMaskIntoConstraints="NO" id="dPm-wa-Qod">
+                                <rect key="frame" x="221" y="28" width="159" height="14"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
-                            <constraint firstItem="tdF-um-K9K" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" constant="-101" id="Y3L-uC-jjX"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
-                            <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
-                            <constraint firstItem="tdF-um-K9K" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="j7r-ZT-auZ"/>
+                            <constraint firstItem="tdF-um-K9K" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="4FL-7X-bor"/>
+                            <constraint firstItem="tdF-um-K9K" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="4aX-05-thl"/>
+                            <constraint firstItem="dPm-wa-Qod" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="8" symbolic="YES" id="K44-bS-F9v"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="9Ok-hT-E14" secondAttribute="bottom" constant="131" id="YaY-Lv-iq5"/>
+                            <constraint firstItem="dPm-wa-Qod" firstAttribute="centerX" secondItem="tdF-um-K9K" secondAttribute="centerX" id="c5O-c0-rvv"/>
+                            <constraint firstItem="9Ok-hT-E14" firstAttribute="top" secondItem="tdF-um-K9K" secondAttribute="bottom" constant="8" symbolic="YES" id="gAg-ts-FGK"/>
+                            <constraint firstItem="tdF-um-K9K" firstAttribute="centerX" secondItem="9Ok-hT-E14" secondAttribute="centerX" id="j76-2S-IQV"/>
+                            <constraint firstItem="rb1-7x-6EJ" firstAttribute="centerY" secondItem="tdF-um-K9K" secondAttribute="centerY" id="nlf-p3-DOY"/>
+                            <constraint firstItem="rb1-7x-6EJ" firstAttribute="centerX" secondItem="9Ok-hT-E14" secondAttribute="centerX" id="t6W-1E-Ike"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-320"/>
+            <point key="canvasLocation" x="750" y="-328"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Tbv-qg-hiq">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tnC-0X-xCJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="y3n-xr-kYO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kdP-4l-Idx"/>
+                        <viewControllerLayoutGuide type="bottom" id="stz-Ql-42y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gRh-Gn-ASt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QnY-k8-jcC">
+                                <rect key="frame" x="283" y="285" width="34" height="30"/>
+                                <state key="normal" title="Back"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QnY-k8-jcC" firstAttribute="centerY" secondItem="gRh-Gn-ASt" secondAttribute="centerY" id="HK6-RV-veX"/>
+                            <constraint firstItem="QnY-k8-jcC" firstAttribute="centerX" secondItem="gRh-Gn-ASt" secondAttribute="centerX" id="ist-Gr-wae"/>
+                        </constraints>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1381" y="-329"/>
         </scene>
         <!--Second-->
         <scene sceneID="wg7-f3-ORb">
@@ -118,9 +145,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="HeyWhere" width="159" height="14"/>
         <image name="first" width="30" height="30"/>
         <image name="rIcon_Green" width="120" height="120"/>
-        <image name="railwayPlatfrom" width="480" height="480"/>
+        <image name="railwayPlatformHero" width="1104" height="736"/>
         <image name="second" width="30" height="30"/>
+        <image name="showCard@0.5x" width="176" height="29"/>
     </resources>
 </document>
